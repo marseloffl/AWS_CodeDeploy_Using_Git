@@ -5,15 +5,15 @@ files:
     destination: /var/www/html/	    
 hooks:	
   BeforeInstall:	 
-    - location: scripts/install	   
+    - location: scripts/install_server
       timeout: 300	     
       runas: ec2-user
   ApplicationStart:	     
-    - location: scripts/start	    
+    - location: scripts/start_server
       timeout: 300	     
       runas: ec2-user
   ApplicationStop:
-    - location: scripts/stop	    
+    - location: scripts/stop_server
       timeout: 300	     
       runas: ec2-user
 
