@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo service apache2 start
+systemctl stop httpd
+systemctl disable httpd
