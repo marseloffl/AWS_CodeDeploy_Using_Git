@@ -30,7 +30,7 @@ Note: You Can Modify IAM Role after the Instance Launched.
 *Give any name like "sampleapp" in Application name.
 *On Compute Platform -> EC2/On Premises.
 
-![Create Application](https://drive.google.com/file/d/1ebUxClrgNxrl_VFuoTVBGvYEb4BVPFLd/view?usp=drive_link)
+![Create Application](https://drive.google.com/file/d/1QKSKAk5s7Gm2caEI_0pgUh4uRMQawqcK/view?usp=drive_link)
 
 ## 4. Create Deployment Group
 
