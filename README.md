@@ -4,7 +4,7 @@
 *First you have to Create an IAM role (EC2 - CodeDeploy) Full Access much better for practise.
 *Second You have to create separate CodeDeploy role.
 
-![CodeDeploy Role](https://drive.google.com/file/d/1ebUxClrgNxrl_VFuoTVBGvYEb4BVPFLd/view?usp=drive_link)
+![CodeDeploy Role](https://ibb.co/92x21kk)
 
 ## 1.1 Why are we creating an IAM Role?
 
@@ -30,7 +30,7 @@ Note: You Can Modify IAM Role after the Instance Launched.
 *Give any name like "sampleapp" in Application name.
 *On Compute Platform -> EC2/On Premises.
 
-![Create Application](https://drive.google.com/file/d/1QKSKAk5s7Gm2caEI_0pgUh4uRMQawqcK/view?usp=drive_link)
+![Create Application](https://ibb.co/JqMnk37)
 
 ## 4. Create Deployment Group
 
