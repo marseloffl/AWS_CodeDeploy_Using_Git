@@ -6,10 +6,8 @@
 
 * Second You have to create separate CodeDeploy role.
 
-
-
-
 ![CodeDeploy Role](https://drive.google.com/uc?export=view&id=1ebUxClrgNxrl_VFuoTVBGvYEb4BVPFLd)
+
 ## 1.1 Why are we creating an IAM Role?
  EC2 Instance to CodeDeploy are different services in AWS so to connect this service we are creating an IAM Role (Service to Service) in AWS.
 
