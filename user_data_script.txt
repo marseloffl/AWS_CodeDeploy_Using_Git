@@ -1,0 +1,12 @@
+#!/bin/bash
+sudo yum update -y
+sudo yum install ruby -y
+sudo yum install wget -y
+cd /home/ec2-user
+wget https://aws-codedeploy-ap-south-1.s3.ap-south-1.amazonaws.com/latest/install
+chmod +x ./install
+sudo ./install auto
+sudo service codedeploy-agent status
+
+(Optional)
+If any error occurs after instance launch while using "sudo service codedeploy-agent status" command and codedeploy agent didn't running means you have to start the service using "sudo service codedeploy-agent start"
